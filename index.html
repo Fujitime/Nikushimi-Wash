@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikushimi Wash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="background"></div>
+        <div id="content">
+            <h1>Welcome to Nikushimi Wash</h1>
+            <form id="feedback-form">
+                <label for="achievement">What have you achieved today?</label>
+                <textarea id="achievement" rows="3" placeholder="Share your achievements..."></textarea>
+
+                <label for="regret">What do you regret today?</label>
+                <textarea id="regret" rows="3" placeholder="Share your regrets..."></textarea>
+
+                <button type="button" id="submit-btn">Get Compliment</button>
+            </form>
+            <div id="result">
+                <h2>Your Compliment:</h2>
+                <p id="compliment"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
