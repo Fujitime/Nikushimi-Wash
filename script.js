@@ -1,5 +1,4 @@
-// script.js
-const apiKey = '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'; // Replace with your API Key
+const apiKey = ''; 
 
 document.getElementById('submit-btn').addEventListener('click', async () => {
     const achievement = document.getElementById('achievement').value;
